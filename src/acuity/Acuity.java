@@ -197,9 +197,22 @@ public class Acuity {
                     String input1 = a.next();
                     String String = "y";
                     if (input1.indexOf(String)== -1){
+                        if (input1.contains("ok")){
+                        String url_open ="https://www.chess.com/play/computer";
+                        Desktop.getDesktop().browse(java.net.URI.create(url_open));}
+                        else if(input1.contains("like")){
+                            String url_open ="https://www.chess.com/play/computer";
+                        Desktop.getDesktop().browse(java.net.URI.create(url_open));}
+                        else if(input1.contains("very")){
+                            String url_open ="https://www.chess.com/play/computer";
+                        Desktop.getDesktop().browse(java.net.URI.create(url_open));}
+                        else if(input1.contains("love")){
+                            String url_open ="https://www.chess.com/play/computer";
+                        Desktop.getDesktop().browse(java.net.URI.create(url_open));}
+                        else {
                         System.out.println("I hope this song can cheer you up a bit");
                         String url_open ="https://www.youtube.com/watch?v=DECxluN8OZM";
-                        Desktop.getDesktop().browse(java.net.URI.create(url_open)); 
+                        Desktop.getDesktop().browse(java.net.URI.create(url_open));} 
                     }
                     else{   
                         String url_open ="https://www.chess.com/play/computer";
