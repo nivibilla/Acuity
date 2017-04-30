@@ -186,6 +186,26 @@ public class Acuity {
                 else if(input.contains("hello")){
                     System.out.println("Hi, how may I be of assistance?");   
                 }
+                else if(input.contains("maths")){
+                    System.out.println("Im not sure ill be much help, i suggest wolfram alpha");
+                    String url_open ="https://www.wolframalpha.com/";
+                    Desktop.getDesktop().browse(java.net.URI.create(url_open));
+                }
+                 else if(input.contains("math")){
+                    System.out.println("Im not sure ill be much help, i suggest wolfram alpha");
+                    String url_open ="https://www.wolframalpha.com/";
+                    Desktop.getDesktop().browse(java.net.URI.create(url_open));
+                }
+                 else if(input.contains("mathematics")){
+                    System.out.println("Im not sure ill be much help, i suggest wolfram alpha");
+                    String url_open ="https://www.wolframalpha.com/";
+                    Desktop.getDesktop().browse(java.net.URI.create(url_open));
+                }
+                 else if(input.contains("mathematic")){
+                    System.out.println("Im not sure ill be much help, i suggest wolfram alpha");
+                    String url_open ="https://www.wolframalpha.com/";
+                    Desktop.getDesktop().browse(java.net.URI.create(url_open));
+                } 
                 else if(input.contains("umbrella")){
                     System.out.println("Here, I'll show you the weather to see if you will need an umbrella tomorrow");
                     String url_open ="https://www.google.co.uk/?gfe_rd=cr&ei=g8A0WLDLOcvU8geIyp6gCA#q=weather+where+i+am";
@@ -206,7 +226,16 @@ public class Acuity {
                         else if(input1.contains("very")){
                             String url_open ="https://www.chess.com/play/computer";
                         Desktop.getDesktop().browse(java.net.URI.create(url_open));}
+                        else if(input1.contains("sure")){
+                            String url_open ="https://www.chess.com/play/computer";
+                        Desktop.getDesktop().browse(java.net.URI.create(url_open));}
                         else if(input1.contains("love")){
+                            String url_open ="https://www.chess.com/play/computer";
+                        Desktop.getDesktop().browse(java.net.URI.create(url_open));}
+                        else if(input1.contains("course")){
+                            String url_open ="https://www.chess.com/play/computer";
+                        Desktop.getDesktop().browse(java.net.URI.create(url_open));}
+                        else if(input1.contains("why")){
                             String url_open ="https://www.chess.com/play/computer";
                         Desktop.getDesktop().browse(java.net.URI.create(url_open));}
                         else {
